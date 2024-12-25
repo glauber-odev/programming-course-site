@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="css/boot.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>PROJETO HTLM MOD 3</title>
+</head>
+
+<body>
+    <!--DOBRA CABEÇALHO-->
+
+    <header class="main_header">
+        <div class="main_header_content">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Bem vindo ao projeto prático Html5 e Css3 Essentials"
+                    title="Bem vindo ao projeto prático Html5 e Css3 Essentials"></a>
+
+            <nav class="main_header_content_menu">
+                <ul>
+                    <li><a href="opcao.html">Voltar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--FIM DOBRA CABEÇALHO-->
+    <h1>Formulário Cadastro</h1>
+    <div class="container">
+        <form action="" method="get">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Informe nome" required>
+            </div>
+            <div class="form-group">
+                <label for="arquivo">Foto usuário:</label>
+                <input type="file" name="foto" placeholder="Selecione foto" required>
+            </div>
+            <div class="form-group">
+                <label for="dtNas">Data Nascimento:</label>
+                <input type="date" name="dtnasc" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" required placeholder="Informe CPF">
+            </div>
+            <div class="form-group">
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" name="cnpj" required placeholder="Informe cnpj">
+            </div>
+            <div class="form-group">
+                <label for="rg">Rg:</label>
+                <input type="text" name="rg" required placeholder="Informe RG">
+            </div>
+            <div class="form-group">
+                
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" required placeholder="Informe Endereço">
+            
+            
+            </div>
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="text" name="numero" required placeholder="Informe Num">
+            </div>
+            <div class="form-group">
+                <label for="complemento">Complemento:</label>
+                <input type="text" name="complemento" required placeholder="complemento">
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="Bairro" required placeholder="Informe Bairro">
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" required placeholder="Informe Cidade">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" required placeholder="Informe Email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" required placeholder="Informe Senha">
+            </div>
+            <div class="form-group">
+                <label for="situacao">Situação:</label>
+                <select name="" id="">
+                    <option value="">Ativo</option>
+                    <option value="">Inativo</option>
+                    <option value="">Bloqueado</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="uf">Unidade Federativa:</label>
+                <select name="uf" id="">
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="BA">Bahia</option>
+                </select>
+            </div>
+            
+            <div class="form-grou_btn">
+                <p>
+                    <br><br><br>
+                    <button type="submit">Cadastrar</button>
+                </p>
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
